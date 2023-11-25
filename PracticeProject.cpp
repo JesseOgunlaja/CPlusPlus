@@ -2,22 +2,24 @@
 
 int main()
 {
-    int num;
+  int num;
 
-    std::cout << "Enter a number ";
-    std::cin >> num;
-    int x = 1;
+  std::cout << "Enter a number ";
+  std::cin >> num;
+  int x = 1;
 
-    while(x != num){
-        if(num % x == 0){
-            std::cout << x << "    ";
-            x++;
-        }
-        else{
-            x++;
-        }
+  while (x != num)
+  {
+    if (num % x == 0)
+    {
+      std::cout << x << "    ";
+      x++;
     }
+    else
+    {
+      x++;
+    }
+  }
 
-
-    return 0;
+  return 0;
 }
